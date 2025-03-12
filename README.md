@@ -1,5 +1,7 @@
 # SteamTrack
 
+font: inter (  font-family: "Inter", sans-serif; )
+
 color :
 
 #171a21 - bluish-black

@@ -1,3 +1,62 @@
 :root {
-    
+    --bluish-black: #171a21; 
+    --bright-light-blue: #66c0f4;
+    --dark-blue-greyish: #1b2838;
+    --deep-blue-grey: #2a475e;
+    --blue-grey-very-clear: #c7d5e0; 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.nav-bar {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.logo-steam-track {
+    width:20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-steam-track img {
+    width: 50px ;
+    object-fit: contain;
+}
+
+/* bare de recherche */
+
+.search-bar {
+    width: 300px;
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+.search-bar button {
+    display: none;
 }
