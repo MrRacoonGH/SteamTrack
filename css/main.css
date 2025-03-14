@@ -10,11 +10,21 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--dark-blue-greyish);
+}
+
+h1 {
+    color: var(--blue-grey-very-clear);
+}
+
 .nav-bar {
     width: 80%;
     height: 50px;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
